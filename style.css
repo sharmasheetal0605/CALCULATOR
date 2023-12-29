@@ -1,0 +1,63 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik+Doodle+Shadow&family=Titillium+Web&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( to right,
+        white,
+        #AC87C5
+    );
+}
+.container{
+    margin-top: 0.5rem;
+    margin-left: 32rem;
+    text-align: center;
+    height: 65vh;
+    width: 25vw;
+   box-shadow: 4px 4px 8px purple;
+   position: fixed;
+    border-radius: 15px;
+}
+.inputbox{
+    
+    margin: 5px;
+    font-weight: 100;
+    text-align: right;
+    height: 80px;
+    width: 300px;
+    border: 1px solid purple;
+    border-radius: 9px;
+    font-size: 2rem;
+}
+.number{
+    height: 50px;
+    width: 65px;
+    border: 1px solid purple;
+    text-align: center;
+    margin: 5px;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.inputbox:hover{
+    box-shadow: 4px 4px 8px purple;
+}
+.number:hover{
+    box-shadow: 4px 4px 8px purple;
+    background-color: rgb(225, 164, 225);
+}
+h1{
+    font-family: "Rubik Doodle Shadow";
+    text-align: center;
+    margin-top: 40px;
+    font-size: 45px;
+    color: purple;
+}
+.AC{
+    color: rgb(101, 4, 101);
+}
+.C{
+    color: rgb(101, 4, 101);
+}
